@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Rubik:wght@400;500;700&display=swap");
+
+* {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.input form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.input button {
+  background-color: #0068f3;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.input-element {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 50px;
+}
+
+.input-element p {
+  margin: 0;
+}
+
+.input-element input {
+  border-radius: 5px;
+  outline-color: #0068f3;
+  border: 1px solid black;
+}
+
+.input-element label {
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.error-input-element {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 50px;
+}
+
+.error-input-element p {
+  margin: 0;
+}
+
+.error-input-element input {
+  border-radius: 5px;
+  outline-color: #0068f3;
+  border: 1px solid red;
+}
+
+.error-input-element label {
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.success-input-element {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 50px;
+}
+
+.success-input-element p {
+  margin: 0;
+}
+
+.success-input-element input {
+  border-radius: 5px;
+  outline-color: #0068f3;
+  border: 1px solid #609863;
+}
+
+.success-input-element label {
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.invalid-field {
+  display: block;
+  color: red;
+  font-weight: 500;
+}
